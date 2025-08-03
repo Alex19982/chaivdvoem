@@ -10,21 +10,16 @@ public class Product {
         this.details = description;
     }
 
-    // Геттеры и сеттеры
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
+    public String getTitle() {
         return title;
     }
 
-    public void setName(String name) {
-        this.title = name;
+    public String getDetails() {
+        return details;
     }
 
     public String getDescription() {
